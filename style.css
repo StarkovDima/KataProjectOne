@@ -262,24 +262,12 @@ button {
     height: 90px;
     overflow: hidden;
 }
-/* .info__text--hiddend-one,
-.info__text--hiddend-two {
-    display: none;
-} */
-@media screen and (max-width: 768px) {
-/*     .info__text--hiddend-one { display: none; }
-    .info__text--hiddend-two { display: none; } */
-}
 @media screen and (min-width: 768px) {
     .info__text { width: 312px; height: 160px; line-height: 20px; margin: 32px 0px 0px 24px; }
     .info__container { flex-direction: row; flex-wrap: nowrap; }
-    /* .info__text--hiddend-one { display: block; }
-    .info__text--hiddend-two { display: none; } */
 }
 @media screen and (min-width: 1120px) {
     .info__text { width: 490px; max-height: 160px; line-height: 20px; margin: 19px 0px 0px 34px; }
-/*     .info__text--hiddend-one { display: none; }
-    .info__text--hiddend-two { display: block; } */
 }
 /* ------------MAIN-BUTTON---------------------------------------------------- */
 .info__button {
@@ -310,7 +298,6 @@ button {
 /* ------------MAIN-IMAGE---------------------------------------------------- */
 .info__image {
     margin: 16px 0px 35px 0px;
-    /* max-width: 360px; */
 }
 .info__image {
     width: 100%;
